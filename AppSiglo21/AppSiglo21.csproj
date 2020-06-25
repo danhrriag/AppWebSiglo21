@@ -67,12 +67,246 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ADMIN\Reporte-Producto.aspx" />
+    <Content Include="ADMIN\Inicio.aspx" />
+    <Content Include="assets\css\components.css" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\reverse.css" />
+    <Content Include="assets\css\rtl.css" />
+    <Content Include="assets\css\skins\reverse.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\nunito-v9-latin-600.svg" />
+    <Content Include="assets\fonts\nunito-v9-latin-700.svg" />
+    <Content Include="assets\fonts\nunito-v9-latin-800.svg" />
+    <Content Include="assets\fonts\nunito-v9-latin-regular.svg" />
+    <Content Include="assets\fonts\vazir\font-face.css" />
+    <Content Include="assets\fonts\vazir\sample.png" />
+    <Content Include="assets\img\avatar\avatar-1.png" />
+    <Content Include="assets\img\avatar\avatar-2.png" />
+    <Content Include="assets\img\avatar\avatar-3.png" />
+    <Content Include="assets\img\avatar\avatar-4.png" />
+    <Content Include="assets\img\avatar\avatar-5.png" />
+    <Content Include="assets\img\drawkit\drawkit-full-stack-man-colour.svg" />
+    <Content Include="assets\img\drawkit\drawkit-mobile-article-colour.svg" />
+    <Content Include="assets\img\drawkit\drawkit-nature-man-colour.svg" />
+    <Content Include="assets\img\drawkit\revenue-graph-colour.svg" />
+    <Content Include="assets\img\example-image-50.jpg" />
+    <Content Include="assets\img\example-image.jpg" />
+    <Content Include="assets\img\news\img01.jpg" />
+    <Content Include="assets\img\news\img02.jpg" />
+    <Content Include="assets\img\news\img03.jpg" />
+    <Content Include="assets\img\news\img04.jpg" />
+    <Content Include="assets\img\news\img05.jpg" />
+    <Content Include="assets\img\news\img06.jpg" />
+    <Content Include="assets\img\news\img07.jpg" />
+    <Content Include="assets\img\news\img08.jpg" />
+    <Content Include="assets\img\news\img09.jpg" />
+    <Content Include="assets\img\news\img10.jpg" />
+    <Content Include="assets\img\news\img11.jpg" />
+    <Content Include="assets\img\news\img12.jpg" />
+    <Content Include="assets\img\news\img13.jpg" />
+    <Content Include="assets\img\news\img14.jpg" />
+    <Content Include="assets\img\news\img15.jpg" />
+    <Content Include="assets\img\news\img16.jpg" />
+    <Content Include="assets\img\news\img17.jpg" />
+    <Content Include="assets\img\p-250.png" />
+    <Content Include="assets\img\p-50.png" />
+    <Content Include="assets\img\products\product-1-50.png" />
+    <Content Include="assets\img\products\product-1.jpg" />
+    <Content Include="assets\img\products\product-2-50.png" />
+    <Content Include="assets\img\products\product-2.jpg" />
+    <Content Include="assets\img\products\product-3-50.png" />
+    <Content Include="assets\img\products\product-3.jpg" />
+    <Content Include="assets\img\products\product-4-50.png" />
+    <Content Include="assets\img\products\product-4.jpg" />
+    <Content Include="assets\img\products\product-5-50.png" />
+    <Content Include="assets\img\products\product-5.jpg" />
+    <Content Include="assets\img\stisla-fill.svg" />
+    <Content Include="assets\img\stisla-light.svg" />
+    <Content Include="assets\img\stisla-transparent.svg" />
+    <Content Include="assets\img\stisla.svg" />
+    <Content Include="assets\img\unsplash\andre-benz-1214056-unsplash.jpg" />
+    <Content Include="assets\img\unsplash\eberhard-grossgasteiger-1207565-unsplash.jpg" />
+    <Content Include="assets\img\unsplash\login-bg.jpg" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\page\auth-register.js" />
+    <Content Include="assets\js\page\bootstrap-modal.js" />
+    <Content Include="assets\js\page\components-chat-box.js" />
+    <Content Include="assets\js\page\components-multiple-upload.js" />
+    <Content Include="assets\js\page\components-statistic.js" />
+    <Content Include="assets\js\page\components-table.js" />
+    <Content Include="assets\js\page\components-user.js" />
+    <Content Include="assets\js\page\features-post-create.js" />
+    <Content Include="assets\js\page\features-posts.js" />
+    <Content Include="assets\js\page\features-setting-detail.js" />
+    <Content Include="assets\js\page\forms-advanced-forms.js" />
+    <Content Include="assets\js\page\gmaps-advanced-route.js" />
+    <Content Include="assets\js\page\gmaps-draggable-marker.js" />
+    <Content Include="assets\js\page\gmaps-geocoding.js" />
+    <Content Include="assets\js\page\gmaps-geolocation.js" />
+    <Content Include="assets\js\page\gmaps-marker.js" />
+    <Content Include="assets\js\page\gmaps-multiple-marker.js" />
+    <Content Include="assets\js\page\gmaps-route.js" />
+    <Content Include="assets\js\page\gmaps-simple.js" />
+    <Content Include="assets\js\page\index-0.js" />
+    <Content Include="assets\js\page\index.js" />
+    <Content Include="assets\js\page\modules-calendar.js" />
+    <Content Include="assets\js\page\modules-chartjs.js" />
+    <Content Include="assets\js\page\modules-datatables.js" />
+    <Content Include="assets\js\page\modules-ion-icons.js" />
+    <Content Include="assets\js\page\modules-slider.js" />
+    <Content Include="assets\js\page\modules-sparkline.js" />
+    <Content Include="assets\js\page\modules-sweetalert.js" />
+    <Content Include="assets\js\page\modules-toastr.js" />
+    <Content Include="assets\js\page\modules-vector-map.js" />
+    <Content Include="assets\js\page\utilities-contact.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\stisla.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADMIN\AdminMaestra.Master.cs">
+      <DependentUpon>AdminMaestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\AdminMaestra.Master.designer.cs">
+      <DependentUpon>AdminMaestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Reporte-Producto.aspx.cs">
+      <DependentUpon>Reporte-Producto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Reporte-Producto.aspx.designer.cs">
+      <DependentUpon>Reporte-Producto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADMIN\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ADMIN\AdminMaestra.Master" />
+    <Content Include="assets\css\components.css.map" />
+    <Content Include="assets\css\custom.css.map" />
+    <Content Include="assets\css\skins\reverse.css.map" />
+    <Content Include="assets\css\style.css.map" />
+    <Content Include="assets\fonts\nunito-v9-latin-600.eot" />
+    <Content Include="assets\fonts\nunito-v9-latin-600.ttf" />
+    <Content Include="assets\fonts\nunito-v9-latin-600.woff" />
+    <Content Include="assets\fonts\nunito-v9-latin-600.woff2" />
+    <Content Include="assets\fonts\nunito-v9-latin-700.eot" />
+    <Content Include="assets\fonts\nunito-v9-latin-700.ttf" />
+    <Content Include="assets\fonts\nunito-v9-latin-700.woff" />
+    <Content Include="assets\fonts\nunito-v9-latin-700.woff2" />
+    <Content Include="assets\fonts\nunito-v9-latin-800.eot" />
+    <Content Include="assets\fonts\nunito-v9-latin-800.ttf" />
+    <Content Include="assets\fonts\nunito-v9-latin-800.woff" />
+    <Content Include="assets\fonts\nunito-v9-latin-800.woff2" />
+    <Content Include="assets\fonts\nunito-v9-latin-regular.eot" />
+    <Content Include="assets\fonts\nunito-v9-latin-regular.ttf" />
+    <Content Include="assets\fonts\nunito-v9-latin-regular.woff" />
+    <Content Include="assets\fonts\nunito-v9-latin-regular.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Black-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Black-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Black-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Black-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Bold-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Bold-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Bold-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Bold-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Light-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Light-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Light-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Light-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Medium-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Medium-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Medium-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Medium-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Thin-FD-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Thin-FD-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Thin-FD-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits-Without-Latin\Vazir-Thin-FD-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Black-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Black-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Black-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Black-FD.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Bold-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Bold-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Bold-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Bold-FD.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-FD.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Light-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Light-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Light-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Light-FD.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Medium-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Medium-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Medium-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Medium-FD.woff2" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Thin-FD.eot" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Thin-FD.ttf" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Thin-FD.woff" />
+    <Content Include="assets\fonts\vazir\Farsi-Digits\Vazir-Thin-FD.woff2" />
+    <Content Include="assets\fonts\vazir\LICENSE" />
+    <Content Include="assets\fonts\vazir\Vazir-Black.eot" />
+    <Content Include="assets\fonts\vazir\Vazir-Black.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir-Black.woff" />
+    <Content Include="assets\fonts\vazir\Vazir-Black.woff2" />
+    <Content Include="assets\fonts\vazir\Vazir-Bold.eot" />
+    <Content Include="assets\fonts\vazir\Vazir-Bold.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir-Bold.woff" />
+    <Content Include="assets\fonts\vazir\Vazir-Bold.woff2" />
+    <Content Include="assets\fonts\vazir\Vazir-Light.eot" />
+    <Content Include="assets\fonts\vazir\Vazir-Light.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir-Light.woff" />
+    <Content Include="assets\fonts\vazir\Vazir-Light.woff2" />
+    <Content Include="assets\fonts\vazir\Vazir-Medium.eot" />
+    <Content Include="assets\fonts\vazir\Vazir-Medium.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir-Medium.woff" />
+    <Content Include="assets\fonts\vazir\Vazir-Medium.woff2" />
+    <Content Include="assets\fonts\vazir\Vazir-Thin.eot" />
+    <Content Include="assets\fonts\vazir\Vazir-Thin.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir-Thin.woff" />
+    <Content Include="assets\fonts\vazir\Vazir-Thin.woff2" />
+    <Content Include="assets\fonts\vazir\Vazir.eot" />
+    <Content Include="assets\fonts\vazir\Vazir.ttf" />
+    <Content Include="assets\fonts\vazir\Vazir.woff" />
+    <Content Include="assets\fonts\vazir\Vazir.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Black-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Black-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Black-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Black-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Bold-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Bold-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Bold-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Bold-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Light-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Light-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Light-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Light-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Medium-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Medium-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Medium-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Medium-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Thin-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Thin-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Thin-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-Thin-WOL.woff2" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-WOL.eot" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-WOL.ttf" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-WOL.woff" />
+    <Content Include="assets\fonts\vazir\Without-Latin\Vazir-WOL.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
